@@ -1,0 +1,38 @@
+.card {
+    width: 25rem;
+    height: 30rem;
+    margin: 1rem;
+    border: 2px solid;
+    border-radius: 1rem;
+    text-align: center;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+.img {
+    width: 100%;
+    height: 45%;
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+}
+.common {
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin: 0.5rem;
+}
+.btn {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
